@@ -17,11 +17,31 @@ public class DataInitializer {
     public void initData(){
 
         try{
-            Lanaguage lanaguage = new Lanaguage();
-            lanaguage.setName("Java");
-            languageRepository.save(lanaguage);
+            Lanaguage language = new Lanaguage();
+            language.setName("Java");
+            languageRepository.save(language);
 
-            
+            language = new Lanaguage();
+            language.setName("JavaScript");
+            languageRepository.save(language);
+
+            language = new Lanaguage();
+            language.setName("C++");
+            languageRepository.save(language);
+
+            language = new Lanaguage();
+            language.setName("Groovy");
+            languageRepository.save(language);
+
+            language = new Lanaguage();
+            language.setName("Python");
+            languageRepository.save(language);
+
+            language = new Lanaguage();
+            language.setName("Swift");
+            languageRepository.save(language);
+
+
 
         }
         catch (Exception ex){

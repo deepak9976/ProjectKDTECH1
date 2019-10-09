@@ -1,7 +1,13 @@
 package com.deepak.app.dao;
 
 
-import javax.persistence.*;
+import org.springframework.data.annotation.Id;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
 
 @Entity
 public class Lanaguage {
